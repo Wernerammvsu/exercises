@@ -139,10 +139,12 @@ def trueSQRT(X):
     return -root, root
 
 
-X = float(input())
+X = float(input().strip())
 A, B = trueSQRT(X)
-print(A, B)
-
+if A == 0 :
+    print(0)
+else:
+    print(A, B)
 
 """
 Вам дан набор данных людей, в котором указаны имена, даты рождения и средний чек в магазине. Отсортируйте эти данные по каждому из полей и выведите результат.
