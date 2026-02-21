@@ -1,3 +1,5 @@
+import cv2
+print("sadasdasdasd")
 N, maxDig = map(int, input().split())
 base = maxDig + 1
 total = base ** N  # Общее количество размещений
